@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Iris Prediction")
+st.title("Iris Prediction\tBy yash :>")
 import pickle
 model=pickle.load(open("model_svm.pkl","rb"))
 sl=st.slider("Sl",2.0,10.0)
